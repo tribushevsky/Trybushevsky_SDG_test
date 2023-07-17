@@ -1,0 +1,124 @@
+{
+   "nodes":[
+	  {
+		 "id":"start",
+		 "type":"start",
+		 "title":"История одного дня из жизни котика",
+		 "image":"https://gamerwall.pro/uploads/posts/2022-09/1662290465_1-gamerwall-pro-p-smeshnie-kotiki-instagram-1.jpg",
+		 "choices":[
+			{
+			   "text":"Начать",
+			   "nextNode":"new-day"
+			}
+		 ]
+	  },
+	  {
+		 "id":"new-day",
+		 "type":"common",
+		 "title":"Наступил новый день и наш котик внезапно решил ...",
+		 "image":"https://memepedia.ru/wp-content/uploads/2018/11/screenshot_11.png",
+		 "choices":[
+			{
+			   "text":"Пойти поесть",
+			   "nextNode":"eat"
+			},
+			{
+			   "text":"Подкачать банки",
+			   "nextNode":"gym"
+			},
+			{
+			   "text":"Сделать тыгыдык",
+			   "nextNode":"run"
+			}
+		 ]
+	  },
+	  {
+		 "id":"run",
+		 "type":"common",
+		 "title":"Котику быстро стало скучно и он решил заняться чем-то другим...",
+		 "image":"https://koshka.top/uploads/posts/2021-12/1638880352_1-koshka-top-p-koshka-ubegaet-ot-menya-1.jpg",
+		 "choices":[
+			{
+			   "text":"Лечь спать",
+			   "nextNode":"sleep"
+			},
+			{
+			   "text":"Подкачать банки",
+			   "nextNode":"gym"
+			}
+		 ]
+	  },
+	  {
+		 "id":"eat",
+		 "type":"common",
+		 "title":"В холодильнике наш котик нашел...",
+		 "image":"https://www.5.ua/media/pictures/original/225681.jpg?t=1628080232",
+		 "choices":[
+			{
+			   "text":"Рыбу",
+			   "nextNode":"well-fed"
+			},
+			{
+			   "text":"Мясо",
+			   "nextNode":"well-fed"
+			},
+			{
+			   "text":"Лист салата",
+			   "nextNode":"hungry"
+			}
+		 ]
+	  },
+	  {
+		 "id":"well-fed",
+		 "type":"common",
+		 "title":"Котик поел и почувствовал прилив сил",
+		 "image":"https://kartinkof.club/uploads/posts/2022-03/1648344476_1-kartinkof-club-p-zhirnii-kot-mem-1.jpg",
+		 "choices":[
+			{
+			   "text":"Пойти подкачаться",
+			   "nextNode":"gym"
+			}
+		 ]
+	  },
+	  {
+		 "id":"hungry",
+		 "type":"common",
+		 "title":"Котик ни капли не наелся и решил снова перекусить",
+		 "image":"https://ic.pics.livejournal.com/systemity/18809669/583250/583250_900.jpg",
+		 "choices":[
+			{
+			   "text":"Пойти поесть",
+			   "nextNode":"eat"
+			}
+		 ]
+	  },
+	  {
+		 "id":"gym",
+		 "type":"common",
+		 "title":"Котик сильно устал и решил...",
+		 "image":"https://kartinkin.net/pics/uploads/posts/2022-09/thumbs/1662845561_1-kartinkin-net-p-kot-v-sportzale-pinterest-1.jpg",
+		 "choices":[
+			{
+			   "text":"Пойти поесть",
+			   "nextNode":"eat"
+			},
+			{
+			   "text":"Лечь поспать",
+			   "nextNode":"sleep"
+			}
+		 ]
+	  },
+	  {
+		 "id":"sleep",
+		 "type":"common",
+		 "title":"Котик отлично провел свой день, и быстро уснул",
+		 "image":"https://gamerwall.pro/uploads/posts/2022-09/1662461572_7-gamerwall-pro-p-ustalii-kot-vkontakte-35.jpg",
+		 "choices":[
+			{
+			   "text":"Наступил новый день",
+			   "nextNode":"new-day"
+			}
+		 ]
+	  }
+   ]
+}
